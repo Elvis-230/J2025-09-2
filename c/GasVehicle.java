@@ -1,6 +1,8 @@
 package c;
 
 public interface GasVehicle {
-    void refuel();
-    int getFuelLevel();
+    void setGasCostPerGallon(double cost);
+    double getGasCostPerGallon();
+    double calculateMPG(double miles, double gallonsUsed);
 }
+

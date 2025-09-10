@@ -1,6 +1,9 @@
 package c;
 
 public interface ElectricVehicle {
-    void chargeBattery();
-    int getBatteryLevel();
+    void setElectricCostPerKWh(double cost);
+    double getElectricCostPerKWh();
+    double calculateMPGe(double miles, double kWhUsed);
 }
+
+

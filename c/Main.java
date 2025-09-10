@@ -7,5 +7,5 @@ public class Main {
         hybridCar.drive();
         System.out.println("Battery Level: " + hybridCar.getBatteryLevel());
         System.out.println("Fuel Level: " + hybridCar.getFuelLevel());
+        }
     }
-}
